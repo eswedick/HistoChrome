@@ -1,0 +1,15 @@
+﻿{
+  "manifest_version": 2,
+
+  "name": "HistoChrome Analyzer Plugin",
+  "description": "This extension will analyze your chrome usage",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
